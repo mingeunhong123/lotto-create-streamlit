@@ -13,7 +13,7 @@ st.write("\U0001F3B2 버튼을 눌러 로또 번호를 생성하세요! \U0001F6
 def generate_lotto_numbers():
     lotto_numbers = []
     for i in range(5):
-        lotto = sorted(random.sample(range(1, 47), 6))
+        lotto = sorted(random.sample(range(1, 46), 6))
         lotto_numbers.append(lotto)
     return lotto_numbers
 
